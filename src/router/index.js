@@ -50,12 +50,12 @@ export default new Router({
             component: Profile,
         },
         {
-            path: '/orders',
+            path: '/profile/orders',
             name: 'order-list',
             component: OrderList,
         },
         {
-            path: '/addresses',
+            path: '/profile/addresses',
             name: 'address-list',
             component: AddressList,
         },

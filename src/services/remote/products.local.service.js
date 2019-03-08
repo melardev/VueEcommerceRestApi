@@ -16,7 +16,7 @@ export const ProductsLocalService = {
                 prev_page_url: "/api/products?page_size=12&page=1",
                 requested_page_size: 12,
                 total_items_count: 26,
-                total_pages_count: 3,
+                number_of_pages: 3,
             };
             const products = [
                 {
